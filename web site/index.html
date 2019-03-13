@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Rainbow Rehber</title>
+    <meta content='Rainbow Rehber' name='description' />
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
 
-<div id="navbar">
-  <a class="active" href="javascript:void(0)">Anasayfa</a>
-  <a href="javascript:void(0)">Haritalar</a>
-  <a href="javascript:void(0)">Operatörler</a>
+<body>
+   
+    <div id="main-container">
+        <div class="topnav">
+		<a> R6 Rehber  </a>
+		<center>
+  <a class="active" href="#home">Anasayfa</a>
+  <a href="#news">Operatörler</a>
+  <a href="#contact">Haberler</a>
+  <a href="#about">Haritaler</a>
+  </center>
 </div>
+        <section id="display-ads">
+            <h1><center> Display Ads </center> </h1>
+        </section>
 
-<script>
-window.onscroll = function() {myFunction()};
+        <section id="main-body-container">
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+            <article id="main-article">
+                <h1> Article Box </h1>
+                <section> You can write or mention your article description here </section>
+            </article>
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
+            <aside id='sidebar'>
+                <h1> Slider Box </h1>
+                <section> You can write or mention your Slider description here </section>
+            </aside>
 
+        </section>
+
+        <footer id="footer">Copyright © <a shref="http://www.skptricks.com">www.skptricks.com </a>
+        </footer>
+    </div>
 
 </body>
+
 </html>
