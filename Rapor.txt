@@ -1,0 +1,13 @@
+1. body ye ortalama deðerleri verdim ve background a resim atadým.
+2. Geniþliði 100% yaptým ve fontu "Montserrat" yaptým.
+3. Menü poziyonu fixed yaptým arka plan rengi verdim. Geniþliði 100% yaptým
+4. Logo ekledim ve sola hizaladým
+5. Menünün hover özelliklerini belirledim
+6. "icerik" adlý div oluþturup ana sayfanýn tasarýmýný yaptým. Arka plan resmi kullandým.
+7. "alt" adlý divle en alt tasarýmý yaptým arka plan resmi kullandým.
+8. "a" kodunun text-decoration özelliðini "none" yaparak link yapýlarýnýn düzgün görünmesini saðladým.
+9. "h1","h3" e özel renk ve hizalama ayarlarý yaptým.
+10. "yazilar" adlý divde tariflerin yazýldýðý sayfanýn tasarýmýný yaptým.
+11. "img" için hizalama kullandým.
+12. "yazýh1" adlý class ta yazýlarýn "h1" özelliklerini belirledim.
+13. "p" ve "pre" özelleþtirmesi yaptým.

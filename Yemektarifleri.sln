@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB7689E1-808A-4E39-A2AB-8F723593EDE2}"
+	ProjectSection(SolutionItems) = preProject
+		arasicak.html = arasicak.html
+		corba.html = corba.html
+		hamurisi.html = hamurisi.html
+		icecekler.html = icecekler.html
+		index.html = index.html
+		salata.html = salata.html
+		style.css = style.css
+		tatli.html = tatli.html
+		yemek.html = yemek.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çorbalar", "Çorbalar", "{03F2F655-F857-49CE-A43E-609CC616D7F3}"
+	ProjectSection(SolutionItems) = preProject
+		balik-corbasi.html = balik-corbasi.html
+		bulgur-corbasi.html = bulgur-corbasi.html
+		domates-corbasi.html = domates-corbasi.html
+		ezogelin-corbasi.html = ezogelin-corbasi.html
+		sebze-corbasi.html = sebze-corbasi.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resimler", "Resimler", "{3BF48032-37D6-41FF-A69C-9B86FA7174F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Yemekler", "Yemekler", "{122DFD10-8225-4E5C-BA1D-0B0D1089410C}"
+	ProjectSection(SolutionItems) = preProject
+		ankara-tava.html = ankara-tava.html
+		balik-izgara.html = balik-izgara.html
+		dana-rosto.html = dana-rosto.html
+		etli-taze-fasulye.html = etli-taze-fasulye.html
+		firinda-kuzu.html = firinda-kuzu.html
+		hunkar-begendi.html = hunkar-begendi.html
+		izmir-kofte.html = izmir-kofte.html
+		karni-yarik.html = karni-yarik.html
+		kiymali-ispanak.html = kiymali-ispanak.html
+		sebze-guvec.html = sebze-guvec.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Salatalar", "Salatalar", "{E0C8A9A7-8619-410E-A59D-BDEA80BF4F60}"
+	ProjectSection(SolutionItems) = preProject
+		bezelyeli-salata.html = bezelyeli-salata.html
+		domatesli-köy-salatasi.html = domatesli-köy-salatasi.html
+		karisik-salata.html = karisik-salata.html
+		kinoali-yaz-salatasi.html = kinoali-yaz-salatasi.html
+		yesil-salata.html = yesil-salata.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ara Sıcaklar", "Ara Sıcaklar", "{A6ECCE50-1F4F-461C-A3DD-C7C2C55D0A3A}"
+	ProjectSection(SolutionItems) = preProject
+		dolgulu-patates-kroket.html = dolgulu-patates-kroket.html
+		firinda-kasarli-mantar.html = firinda-kasarli-mantar.html
+		icli-köfte.html = icli-köfte.html
+		kalamar-tava.html = kalamar-tava.html
+		kirmizi-köz-biber-kizartmasi.html = kirmizi-köz-biber-kizartmasi.html
+		peynirli-izgara-kabak.html = peynirli-izgara-kabak.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hamur İşi", "Hamur İşi", "{77A5DD3F-0DE6-4870-A1DC-53450E5797E3}"
+	ProjectSection(SolutionItems) = preProject
+		avci-boregi.html = avci-boregi.html
+		domatesli-tart.html = domatesli-tart.html
+		havuclu-tarcinli-kek.html = havuclu-tarcinli-kek.html
+		kasar-peynirli-dolgulu-ekmek.html = kasar-peynirli-dolgulu-ekmek.html
+		patatesli-sigara-boregi.html = patatesli-sigara-boregi.html
+		sucuklu-pizza.html = sucuklu-pizza.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tatlı", "Tatlı", "{EAAC3CC4-4925-4975-8720-5A0A242E4628}"
+	ProjectSection(SolutionItems) = preProject
+		aglayan-pasta.html = aglayan-pasta.html
+		irmik-helvasi.html = irmik-helvasi.html
+		muhallebi.html = muhallebi.html
+		pancake.html = pancake.html
+		revani.html = revani.html
+		sekerpare.html = sekerpare.html
+		sütlac.html = sütlac.html
+		tiramisu.html = tiramisu.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "İçecekler", "İçecekler", "{EEEE86D3-DB94-4278-BE08-511AAB93C3B7}"
+	ProjectSection(SolutionItems) = preProject
+		elmali-smoothie.html = elmali-smoothie.html
+		kahveli-milkshake.html = kahveli-milkshake.html
+		kizilcik-serbeti.html = kizilcik-serbeti.html
+		limonata.html = limonata.html
+		mojito.html = mojito.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

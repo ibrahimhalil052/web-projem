@@ -1,196 +1,733 @@
-* {
-     margin: 0px;
-     padding: 0px 
-}
- #main-container {
-     width: 100%;
-     margin: 0px auto;
-}
- #header {
-     width: 100%;
-     background-color: black;
-     padding: 10px;
-     color: white;
-}
- #header:after {
-     content: ".";
-     display: block;
-     height: 0;
-     clear: both;
-     visibility: hidden;
-}
- #header section {
-     float: left;
-     width: 20%;
-     font-size: 18px;
-     font-weight: bold;
-}
- #header nav {
-     width: 50%;
-     float: left;
-}
- #header nav ul {
-     list-style: none;
-}
- #header nav ul li {
-     float: left;
-     min-width: 10%;
-     padding: 4px;
-     margin-left: 10px;
-     background-color: #fdf1e5;
-     text-align: center;
-     color: black;
-}
- #header nav ul li a, a {
-     text-decoration: none;
-}
- #main-body-container {
-     padding: 10px;
-     margin: 10px;
-  }
- #main-body-container:after {
-     content: ".";
-     display: block;
-     height: 0;
-     clear: both;
-     visibility: hidden;
-}
- #display-ads{
-     padding: 20px;
-     margin: 20px;
-     background: #e5e5e5;
-}
- #main-article {
-     float: left;
-     width: 60%;
-     min-height: 450px;
-     background: #e5e5e5;
-}
- #sidebar {
-     float: right;
-     width: 38%;
-     min-height: 450px;
-     background: #e5e5e5;
-}
- #footer {
-     width: 100%;
-     background-color: black;
-     padding: 10px;
-     color: white;
-}
-.topnav {
-  background-color: #333;
-  overflow: hidden;
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    background: url(bg.jpg) no-repeat center;
+    width:100%;
+    height:auto;
 }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.navbar {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.50);
+    width: 100%;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.logo {
+    background: url(logo.png) no-repeat 50% 50%;
+    background-size: contain;
+    width: 200px;
+    height: 45px;
+    float: left;
+    margin-left: 20px;
+}
+
+.menu {
+    position: absolute;
+    right: 20px;
+}
+
+    .menu a {
+        color: azure;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 20px;
+        transition: color 0.3s;
+        text-transform: uppercase;
+        
+    }
+
+        .menu a:hover {
+            color: azure;
+            
+            text-decoration:underline;
+        }
+
+.header {
+    width: 100%;
+    background-size: cover;
+    margin-top: 80px;
 }
 
 
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-{box-sizing:border-box}
-
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.p {
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
 }
 
-
-.mySlides {
-  display: none;
+.icerik {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(corba.jpg) bottom;
+}
+.icerikorta {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(yemek.jpg) bottom;
+    text-align:center;
+}
+.iceriksag {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(salata.jpg) bottom ;
+    
+}
+.icerik1 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(arasicak.jpg) bottom;
 }
 
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.icerikorta1 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(hamurisi.jpg) bottom;
 }
 
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.iceriksag1 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(tatli.jpg) bottom;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.alt {
+    vertical-align: central;
+    width: 83.5%;
+    height: 135px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(icecekbg.jpg) center;
+}
+a{
+    text-decoration:none;
 }
 
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+h1 {
+    text-align: center;
+    color: azure;
+    background-color: rgba(10, 10, 10, 0.50);
+    margin-top: 115px;
+    border-radius: 5px 5px 5px 5px;
+}
+.alt h1 {
+    text-align: center;
+    margin-top:50px;
+    color: azure;
+    background-color: rgba(10, 10, 10, 0.50);
+    border-radius: 5px 5px 5px 5px;
+}
+p {
+    text-align: left;
+    font-size:14.5px;
+    background-color: rgba(10, 10, 10, 0.50);
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+   color:azure;
+   padding-left:20px;
+}
+/*Çorbalar*/
+.icerikcorba {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Çorbalar/bulgurcorbasi.jpg) bottom;
+}
+.icerikcorba2 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Çorbalar/domatescorbasi.jpg) bottom;
+}
+.icerikcorba3 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Çorbalar/sebzecorbasi.jpg) bottom;
+}
+.icerikcorba4 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Çorbalar/ezogelincorbasi.jpg) bottom;
+}
+.icerikcorba5 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Çorbalar/balikcorbasi.jpg) bottom;
+}
+.icerikcorba6 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(corba.jpg) bottom;
+}
+/*Yemekler*/
+.yemek {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/ankaratava.jpg) bottom;
+}
+.yemek2 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/balikizgara.jpg) bottom;
+}
+.yemek3 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/danarosto.jpg) bottom;
+}
+.yemek4 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/etlitazefasulye.jpg) bottom;
+}
+.yemek5 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/firindakuzu.jpg) bottom;
+}
+.yemek6 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/hünkarbegendi.jpg) bottom;
+}
+.yemek7 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/izmirköfte.jpg) bottom;
+}
+.yemek8 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/karniyarik.jpg) bottom;
+}
+.yemek9 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/kiymaliispanak.jpg) bottom;
+}
+.yemek10 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Yemekler/sebzeg.jpg) bottom;
+}
+/*Salatalar*/
+.salata {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Salatalar/bezelyelisalata.jpg) bottom;
+}
+.salata2 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Salatalar/karisiksalata.jpg) bottom;
+}
+.salata3 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Salatalar/domatesliköysalatasi.jpg) bottom;
+}
+.salata4 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Salatalar/kinoaliyazsalatasi.jpg) bottom;
+}
+.salata5 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Salatalar/yesilsalata.jpg) bottom;
+}
+/*Ara Sıcaklar*/
+.ara {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/AraSıcaklar/firindakasarlimantar.jpg) bottom;
+}
+.ara {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/AraSıcaklar/firindakasarlimantar.jpg) bottom;
+    text-align:center;
+}
+.ara2 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/AraSıcaklar/kirmiziközbiber.jpg) bottom;
+}
+.ara3 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/AraSıcaklar/kalamartava.jpg) bottom;
+}
+.ara4 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/AraSıcaklar/icliköfte.jpg) bottom;
+}
+.ara5 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/AraSıcaklar/peynirliizgarakabak.jpg) bottom;
+}
+.ara6 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/AraSıcaklar/dolgulupatateskroket.jpg) bottom;
+}
+/*Hamur İşleri*/
+.hamur {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Hamurİşi/patateslisigaraböregi.jpg) bottom;
+}
+.hamur2 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Hamurİşi/avciböregi.jpg) bottom;
+}
+.hamur3 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Hamurİşi/kasarpeynirlidolguluekmek.jpg) bottom;
+}
+.hamur4 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Hamurİşi/domateslitart.jpg) bottom;
+}
+.hamur5 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Hamurİşi/havuclutarcinlikek.jpg) bottom;
+}
+.hamur6 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Hamurİşi/sucuklupizza.jpg) bottom;
+}
+/*Tatlılar*/
+.tatli {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Tatlılar/irmikhelvasi.jpg) bottom;
+}
+.tatli2 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Tatlılar/tiramisu.jpg) bottom;
+}
+.tatli3 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Tatlılar/pancake.jpg) bottom;
+}
+.tatli4 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Tatlılar/revani.jpg) bottom;
+}
+.tatli5 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Tatlılar/muhallebi.jpg) bottom;
+}
+.tatli6 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Tatlılar/sütlac.jpg) bottom;
+}
+.tatli7 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Tatlılar/aglayanpasta.jpg) bottom;
+}
+.tatli8 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/Tatlılar/sekerpare.jpg) bottom;
+}
+/*içecekler*/
+.icecek {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/İçecekler/limonata.jpg) bottom;
+}
+.icecek2 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/İçecekler/elmalismoothie.jpg) bottom;
+}
+.icecek3 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/İçecekler/kizilcikserbeti.jpg) bottom;
+}
+.icecek4 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/İçecekler/mojito.jpg) bottom;
+}
+.icecek5 {
+    width: 300px;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: url(Resimler/İçecekler/kahvelimilkshake.jpg) bottom;
+}
+.yazilar {
+    vertical-align: central;
+    width: 83.5%;
+    height: 670px;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 113px;
+    margin-top: 25px;
+    background: url(bg.jpg) Center ;
+}
+.res {
+    
+    float: left;
+    margin-left: 700px;
+    margin-top: -365px;
 }
 
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.yazih1{
+    float: left;
+    width: 60%;
+    height: auto;
+    margin-left:10px;
+    
 }
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+h3{
+    color:white;
 }
-
-.active, .dot:hover {
-  background-color: #717171;
+pre {
+    text-align: left;
+    font-size: 14.5px;
+    background-color: rgba(10, 10, 10, 0.50);
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: azure;
+    padding-left: 20px;
 }
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-
